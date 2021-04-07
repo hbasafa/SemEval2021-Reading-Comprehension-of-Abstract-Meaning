@@ -6,7 +6,7 @@ from sklearn import metrics
 
 import torch
 
-from torchtext import data
+from torchtext.legacy import data
 from torchtext import datasets
 from torchtext import vocab
 

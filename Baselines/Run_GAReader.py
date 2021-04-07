@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+# insert this in Baselines/Run_GAReader.py 
+import sys
+sys.path.insert(1, '/content/SemEval2021-Reading-Comprehension-of-Abstract-Meaning/')
+
+
 import random
 import time
 import numpy as np
